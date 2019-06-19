@@ -1,0 +1,6 @@
+framework module Pods_HTTPJSON {
+  umbrella header "Pods-HTTPJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
