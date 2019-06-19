@@ -1,0 +1,50 @@
+<html>
+  <head>
+      <title>Sign In</title>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <span>Login</span>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section>
+      <form id="registration_form" action="/todo/api/v1.0/tasks/" method="POST">
+        <table>
+            <tr>
+              <td>
+                <table id="registration_form_table">
+                  <tr>
+                    <td>
+                      <input id="username_field" placeholder="username" name="username" type="text">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input id="password_field" placeholder="password" name="password" type="password">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input id="task_id" placeholder="task id" name="task_id" type="hidden">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button>
+                        <span>Sign In</span>
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+      </form>
+    </section>
+  </body>
+</html>
