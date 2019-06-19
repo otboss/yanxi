@@ -122,7 +122,7 @@ public class NerdLauncherFragment extends Fragment {
         }
     }
     public void appOpenMusic(){
-        mp = MediaPlayer.create(getContext(), R.raw.appsound);
+        mp = MediaPlayer.create(getContext(), R.raw.dingsound);
         mp.start();
     }
 
