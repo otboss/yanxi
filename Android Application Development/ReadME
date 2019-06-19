@@ -3,5 +3,5 @@ Android Application Development - How to tweak it to make it your own app
 Week 1 - BeatBox Application: Change background music, use either the seekbar or menu to change speed (not both), change the video media, can remove custom controls.
 Week 2 - Themes: Change the colors
 Week 3 - NerdLauncher: Change the background image (can make a theme), change the sound that plays when an app is launched, change span  of grid
-Week 4 - TaskGetter: 
+Week 4 - TaskGetter: Use your own server(refer to web-dev ex.2/3) and create custom tasks to display on the app. Note that you will have to set your server to public (ipaddress:0.0.0.0) and alter the url with your computer's Ipaddress(cmd ipconfig) in the fetchItems() function inside the TaskFetcher class for it to connect with your server. You may also style the app as you like, I have used a cardView to display the Tasks.
         
