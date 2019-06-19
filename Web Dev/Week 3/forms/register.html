@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <span>Registration</span>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <section >
+      <form id="registration_form">
+        <table >
+            <tr>
+              <td>
+                <table id="registration_form_table" action="/register" method="POST">
+                  <tr>
+                    <td>
+                      <input id="username_field" placeholder="username" name="username" type="text">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input id="password_field" placeholder="password" name="password" type="password">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input id="confirmpassword_field" placeholder="confirm password" type="password">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button class="theme regFormElement" onclick="formSubmission()">
+                        <span>Sign Up</span>
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+      </form>
+    </section>
+    <script>
+      const formSubmission = function(){
+        if($("#password_field").val() != $("#confirmpassword_field").val())
+          alert("Password Mismatch!");
+      }
+    </script>
+  </body>
+</html>
